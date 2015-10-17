@@ -1,0 +1,710 @@
+@font-face {
+    font-family: 'nevis';
+    src: url('nevis/nevis-webfont.eot');
+    src: url('nevis/nevis-webfont.eot?#iefix') format('embedded-opentype'), url('nevis/nevis-webfont.woff') format('woff'), url('nevis/nevis-webfont.ttf') format('truetype'), url('nevis/nevis-webfont.svg#webfontbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('open_sans/opensans-regular-webfont.eot');
+    src: url('open_sans/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('open_sans/opensans-regular-webfont.woff') format('woff'), url('open_sans/opensans-regular-webfont.ttf') format('truetype'), url('open_sans/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+header, footer, article, section, nav, menu, hgroup {
+    display: block;
+}
+body {
+    font-family: open_sansregular, Tahoma, Geneva, sans-serif;
+    margin: 0;
+    font-size: .9em;
+    color: #494a49;
+    background-repeat: no-repeat;
+    position: relative;
+}
+li {
+    list-style: none;
+}
+* {
+    outline: 0;
+}
+a {
+    text-decoration: none;
+    color: #0158bf;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    text-indent: -9999px;
+    background-image: url('../images/cij_logo.png');
+    background-repeat: no-repeat;
+    height: 65px;
+    width: 71px;
+    float: left;
+    margin: 20px 0 0 20px;
+}
+h3, h4, #people #quote {
+    text-transform: uppercase;
+    text-align: center;
+    color: #4a4a4a;
+}
+h2 {
+    font-family: nevis, Tahoma, Geneva, sans-serif;
+    clear: both;
+    text-align: center;
+    color: #0158bf;
+    font-size: 2.5em;
+    border-bottom: 2px #0158bf solid;
+    font-weight: normal;
+    margin: 0 auto;
+    padding-bottom: 4px;
+}
+h3, #people #quote {
+    font-size: 1.4em;
+}
+h4 {
+    margin-bottom: 10px;
+}
+h5 {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto 20px;
+    color: #4a4a4a;
+    font-size: 1em;
+    font-weight: normal;
+}
+p {
+    width: 500px;
+    margin: 15px auto;
+    text-align: justify;
+}
+noscript {
+    margin: 0;
+    position: absolute;
+    width: 715px;
+}
+noscript p {
+    font-family: nevis, Tahoma, Geneva, sans-serif;
+    margin: 0;
+    font-size: .8em;
+    text-align: center;
+    width: 100%}
+#home #container {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+}
+#home #container header a {
+    color: white;
+    margin: 0;
+}
+#home #container h1 {
+    background-image: url('../images/cij_logo_home.png');
+}
+#home .flexslider .flex-control-nav {
+    bottom: -210px;
+}
+.no_overflow {
+    overflow: hidden!important;
+    position: relative;
+}
+#home footer {
+    width: 100%;
+    padding-left: 0;
+    position: absolute;
+    z-index: 3000;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#home footer nav ul {
+    border-top: 0;
+    text-align: right;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#home footer nav ul li, #home footer nav ul a {
+    color: white;
+    font-family: 'Coming Soon', cursive;
+    letter-spacing: .1em;
+    text-decoration: italic;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 900px;
+    padding: 0 20px;
+    background-color: white;
+    z-index: 500;
+}
+#home footer, #home header {
+    background-color: transparent;
+}
+#container {
+    width: 940px;
+    margin: 131px auto 37px;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+}
+nav li {
+    margin-top: 30px;
+    display: inline-block;
+    height: 30px;
+}
+nav li a {
+    font-family: nevis, Tahoma, Geneva, sans-serif;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin: 0 15px;
+    padding-bottom: 5px;
+    height: 20px;
+}
+nav li #cij_link {
+    text-transform: none;
+}
+header nav li {
+    width: 100px;
+    text-align: center;
+}
+header nav li a {
+    margin: 0;
+}
+#drop_down>ul {
+    visibility: hidden;
+}
+#drop_down:hover>ul {
+    display: inline-block;
+    position: relative;
+    z-index: 9000;
+    visibility: visible;
+}
+#container #drop_down ul {
+    margin-top: 5px;
+    overflow: hidden;
+}
+#container #drop_down ul li {
+    clear: both;
+    display: inline-block;
+    position: relative;
+    z-index: 9000;
+    margin-top: 2px;
+    float: left;
+    background-color: white;
+    height: 26px;
+}
+#container #drop_down ul li a {
+    color: #60a1df;
+    height: 15px;
+}
+#container #drop_down ul li a:hover {
+    border-bottom: 2px solid #aa4a00;
+}
+#drop_down ul li a {
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+}
+header nav li {
+    float: right;
+}
+footer nav ul {
+    text-align: center;
+    border-top: #0158bf 2px solid;
+}
+footer nav ul li {
+    color: #0158bf;
+    height: 30px;
+}
+.active, header a:hover, footer a:hover {
+    border-bottom: 4px solid #aa4a00;
+}
+#content {
+    overflow-x: hidden;
+    position: relative;
+    min-height: 760px;
+    margin: 3px 0;
+}
+#about {
+    background-image: url('../images/cij_welcome1.jpg');
+    background-size: cover;
+}
+#about #values_section {
+    height: 80px;
+}
+#about #wisdom_pieces {
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 25px;
+}
+#about #wisdom_pieces h5 {
+    display: inline-block;
+    width: 63px;
+    height: 61px;
+    margin: 5px 15px 30px;
+    text-indent: -9999px;
+}
+#about #num1 {
+    background-image: url('../images/about_icons.png');
+    background-position: 0 0;
+}
+#about #num2 {
+    background-image: url('../images/about_icons.png');
+    background-position: 0 -62px;
+}
+#about #num3 {
+    background-image: url('../images/about_icons.png');
+    background-position: 0 185px;
+}
+#about #num4 {
+    background-image: url('../images/about_icons.png');
+    background-position: -1px 123px;
+}
+#about #num5 {
+    background-image: url('../images/about_icons.png');
+    background-position: -2px 61px;
+}
+#about #num1:hover {
+    background-position: 63px 0;
+}
+#about #num2:hover {
+    background-position: 63px -62px;
+}
+#about #num3:hover {
+    background-position: 63px 185px;
+}
+#about #num4:hover {
+    background-position: 62px 123px;
+}
+#about #num5:hover {
+    background-position: 61px 61px;
+}
+#about .wisdom {
+    padding: 20px;
+    width: 420px;
+    margin: 5px auto;
+}
+#about .wisdom h4 {
+    width: 150px;
+    border-bottom: 1px grey solid;
+    margin: 10px auto;
+    padding-bottom: 10px;
+}
+#about .wisdom p {
+    width: 380px;
+    margin: 10px auto;
+}
+#about .position {
+    position: absolute;
+    background-color: white;
+    top: 210px;
+    right: 230px;
+    box-shadow: 5px 5px 5px #888;
+}
+#about #wisdom1 {
+    border: 4px solid #062b6f;
+}
+#about #wisdom2 {
+    border: 4px solid #0056b9;
+}
+#about #wisdom3 {
+    border: 4px solid #62a2df;
+}
+#about #wisdom4 {
+    border: 4px solid #ffa217;
+}
+#about #wisdom5 {
+    border: 4px solid #aa4a00;
+}
+#about #wise_people {
+    width: 500px;
+    margin: 20px auto 35px;
+}
+#about #wise_people li {
+    padding-left: 30px;
+    background-image: url('../images/bullet.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#about .section, #people .section {
+    background-image: url('../images/divider.gif');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 10px;
+}
+#buzzwords {
+    background-image: url('../images/cij_people1.jpg');
+    background-size: cover;
+}
+#buzzwords p, #buzzwords h6 {
+    width: 670px;
+    margin: 0 auto;
+    color: #4a4a4a;
+}
+#buzzwords #content p {
+    margin-top: 20px;
+}
+#buzzwords h6 {
+    font-size: .9em;
+    text-align: right;
+    padding-bottom: 40px;
+}
+#contact, #people {
+    background-image: url('../images/cij_people1.jpg');
+    background-size: cover;
+}
+#contact #contact_people, #people #contact_people {
+    width: 940px;
+    margin: 30px auto 10px;
+    text-align: center;
+}
+#contact #contact_people p, #people #contact_people p {
+    text-align: center;
+    width: 180px;
+    color: #4a4a4a;
+}
+#contact #contact_people p strong, #people #contact_people p strong {
+    color: #0158bf;
+    font-weight: normal;
+}
+#contact #mail, #people #mail {
+    padding-bottom: 50px;
+}
+#contact .contact_person, #people .contact_person {
+    width: 180px;
+    margin: 0 20px;
+    display: inline-block;
+}
+#contact h3, #people h3 {
+    font-size: 1.2em;
+    color: #0158bf;
+    text-align: center;
+}
+#contact p, #people p {
+    text-align: center;
+    color: #4a4a4a;
+}
+#contact h4, #people h4 {
+    width: 260px;
+    margin: 30px auto;
+}
+#contact #mark, #contact #arnold, #contact #paul {
+    background-position: 0 0;
+    margin: 0;
+}
+#contact {
+    background-image: url('../images/cij_welcome1.jpg');
+}
+#expertise {
+    background-image: url('../images/cij_services1.jpg');
+    background-size: cover;
+}
+#expertise #values_section {
+    height: 97px;
+}
+#expertise #values {
+    width: 100%;
+    padding-top: 20px;
+}
+#expertise h3 {
+    margin-bottom: 0;
+}
+#expertise .flexslider .slides img {
+    width: 900px;
+    padding-left: 20px;
+}
+
+#expertise .flexslider .flex-control-nav {
+    bottom: 0;
+}
+#people #values_section {
+    margin-top: 30px;
+    height: 72px;
+}
+#people #values {
+    width: 100%}
+#people h3 {
+    padding-top: 180px;
+}
+#people h3 {
+    color: black;
+}
+#people h3:hover {
+    color: blue;
+}
+#people #quote {
+    padding-top: 5px;
+}
+
+#mark, #arnold, #paul {
+    background-image: url('../images/contact_mark.jpg');
+    background-repeat: no-repeat;
+    height: 180px;
+    width: 180px;
+    background-position: -180px 0;
+}
+#people #arnold:hover {
+    background-image: url('../images/contact_arnold.jpg');
+    color: #0158bf;
+    background-position: 0 0;
+}
+#people #mark:hover {
+    background-image: url('../images/contact_mark.jpg');
+    background-position: 0 0;
+}
+#people #paul:hover {
+    background-image: url('../images/contact_paul.jpg');
+    background-position: 0 0;
+}
+#arnold {
+    background-image: url('../images/contact_arnold.jpg');
+}
+#paul {
+    background-image: url('../images/contact_paul.jpg');
+}
+#person_mark {
+    background-image: url('../images/surf.jpg');
+    background-size: cover;
+}
+#person_arnold {
+    background-image: url('../images/ski.jpg');
+    background-size: cover;
+}
+#person_paul {
+	background-image: url('../images/football.jpg');
+    background-size: cover;
+}
+.person .fixed {
+    position: fixed;
+    margin: 20px;
+    top: 187px;
+    font-family: nevis, Tahoma, Geneva, sans-serif;
+    font-size: .8em;
+}
+.person .fixed h5 {
+    color: #0158bf;
+}
+.person #linked {
+    top: 162px;
+}
+.person .fixed h5:hover {
+    color: #4a4a4a;
+}
+.person img {
+    margin: 90px;
+    position: fixed;
+}
+.person h5 {
+    text-align: left;
+    font-size: .9em;
+    width: 100%;
+    margin-bottom: 0;
+}
+.person .profile {
+    float: right;
+    margin: 20px 0;
+}
+.person .profile p, .person .profile li {
+    width: 350px;
+    font-size: .9em;
+    margin-right: 40px;
+}
+.person .profile li {
+    padding-left: 30px;
+    width: 320px;
+    background-image: url('../images/bullet.png');
+    background-repeat: no-repeat;
+    background-position: left 5px;
+    font-size: .8em;
+}
+.person #character_link {
+    top: 135px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 900px;
+    padding: 0 20px;
+    background-color: white;
+}
+footer ul {
+    margin-top: 0;
+}
+footer ul li {
+    margin-top: 5px;
+}
+footer ul a {
+    margin: 0 8px;
+    font-size: .6em;
+    padding-bottom: 3px;
+}
+footer ul .active, footer ul a:hover {
+    border-bottom: 2px solid #aa4a00;
+}
+.flex-container a:active, .flexslider a:active, .flex-container a:focus, .flexslider a:focus {
+    outline: 0;
+}
+.slides, .flex-control-nav, .flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.flexslider {
+    margin: 0;
+    padding: 0;
+    width: 100%}
+.flexslider .slides>li {
+    display: none;
+    -webkit-backface-visibility: hidden;
+}
+.flexslider .slides img {
+    width: 100%;
+    display: block;
+}
+.flex-pauseplay span {
+    text-transform: capitalize;
+}
+.flexslider .slides li {
+    z-index: 0;
+    width: 100%}
+.slides:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+html[xmlns] .slides {
+    display: block;
+}
+* html .slides {
+    height: 1%}
+.flexslider {
+    margin: 0;
+    background: #fff;
+    position: relative;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    width: 100%;
+    height: 500px;
+}
+.flexslider .flex-viewport {
+    max-height: 2000px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+    height: 100%;
+    overflow: hidden;
+    width: 100%}
+.flexslider .loading .flex-viewport {
+    max-height: 300px;
+}
+.flexslider .flexslider .slides {
+    zoom: 1;
+}
+.flexslider .carousel li {
+    margin-right: 0;
+}
+.flexslider .flex-direction-nav {
+    *height: 0;
+}
+.flexslider .flex-direction-nav a {
+    width: 30px;
+    height: 10px;
+    margin: 0;
+    display: block;
+    background: url(../images/bg_direction_nav.png) no-repeat 0 0;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    cursor: pointer;
+    text-indent: -9999px;
+    opacity: 1;
+    -webkit-transition: all .3s ease;
+}
+.flexslider .flex-direction-nav .flex-next {
+    background-position: 100% 0;
+    right: 10px;
+    top: 45%;
+    display: none;
+}
+.flexslider .flex-direction-nav .flex-prev {
+    left: 10px;
+    top: 45%;
+    display: none;
+}
+.flexslider .flexslider:hover .flex-next {
+    opacity: .8;
+    right: 5px;
+}
+.flexslider .flexslider:hover .flex-prev {
+    opacity: .8;
+    left: 5px;
+}
+.flexslider .flexslider:hover .flex-next:hover, .flexslider .flexslider:hover .flex-prev:hover {
+    opacity: 1;
+}
+.flexslider .flex-direction-nav .flex-disabled {
+    opacity: .3!important;
+    filter: alpha(opacity=30);
+    cursor: default;
+}
+.flexslider .flex-control-nav {
+    width: 100%;
+    position: absolute;
+    bottom: 60px;
+    text-align: center;
+    font-size: 5em;
+    z-index: 3000;
+}
+.flexslider .flex-control-nav li {
+    margin: 0 6px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+.flexslider .flex-control-paging li a {
+    width: 11px;
+    height: 11px;
+    padding: 4px;
+    display: block;
+    background: #666;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    text-indent: -9999px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.flexslider .flex-control-paging li a:hover {
+    background: #333;
+    background: rgba(0, 0, 0, 0.7);
+}
+.flexslider .flex-control-paging li a.flex-active {
+    background: #000;
+    background: rgba(0, 0, 0, 0.9);
+    cursor: default;
+}
+@media screen and (max-width:860px) {
+    .flexslider .flex-direction-nav .flex-prev {
+    opacity: 1;
+    left: 0;
+}
+.flexslider .flex-direction-nav .flex-next {
+    opacity: 1;
+    right: 0;
+}
+}.flexslider #flexslider ol {
+    height: 20px;
+}

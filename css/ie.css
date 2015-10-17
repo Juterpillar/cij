@@ -1,0 +1,10 @@
+
+ * {
+	border: none;
+	outline: none;
+ }
+ 
+ body {
+	background-position: center 0;
+	overflow: auto !important;
+ }
